@@ -25,6 +25,7 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
         scaleImage.value = scaleImage.value / 2;
       }
     });
+    
   const onDrag = Gesture.Pan()
     .onBegin(() => {
       contextX.value = translateX.value;
